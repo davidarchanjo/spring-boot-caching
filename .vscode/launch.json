@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "spring-boot-caching",
+            "request": "launch",
+            "mainClass": "io.davidarchanjo.CachingDemoApplication",
+            "vmArgs": "-Xms256m -Xmx512m -XX:+UseParallelGC -XX:+UseStringDeduplication -XX:+OptimizeStringConcat -XX:+ShowCodeDetailsInExceptionMessages -Dspring.output.ansi.enabled=ALWAYS"
+        }
+    ]
+}
